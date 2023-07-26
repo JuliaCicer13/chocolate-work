@@ -1,0 +1,71 @@
+/* header */
+.logo-chocolate {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+  height: 20px;
+  color: black;
+  text-decoration: none;
+}
+.list-link {
+  list-style: none;
+}
+.link {
+  font-family: "Roboto", sans-serif;
+  width: 43px;
+  height: 16px;
+  text-decoration: none;
+  color: black;
+}
+/* section-one */
+.section-one {
+  background-color: grey;
+}
+.text-title {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 484px;
+  height: 102px;
+}
+.botton-list {
+  list-style: none;
+}
+.button-one {
+  color: white;
+  background-color: orangered;
+  border-radius: 50px;
+}
+.botton-two {
+  color: white;
+  background-color: grey;
+
+  border-radius: 100px;
+}
+/* section-two */
+.section-two {
+  background-color: blueviolet;
+}
+.list {
+  list-style: none;
+}
+.text {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  width: 150px;
+  height: 22px;
+}
+.paragraphe {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 308px;
+  height: 126px;
+}
+.section-three {
+}
+.text-ingredients {
+  font-family: "Raleway", sans-serif;
+  width: 412px;
+  height: 56px;
+}
+.span {
+  color: chocolate;
+}
