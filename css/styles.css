@@ -1,27 +1,39 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --color-black: #111111;
+  --color-violet: #1e1823;
+  --color-grey: #4c4c4c;
+  --color-orange: #fd9222;
+  --color-beige: #fcf1e0;
+  --color-white: #fafafa;
+  --color-white-two: #ffffff;
+}
+
 /* header */
 .logo-chocolate {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700px;
   height: 20px;
-  color: black;
+  color: var(--color-black);
   text-decoration: none;
 }
 .list-link {
   list-style: none;
 }
 .link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   width: 43px;
   height: 16px;
   text-decoration: none;
-  color: black;
+  color: var(--color-black);
 }
 /* section-one */
 .section-one {
-  background-color: grey;
+  background-color: var(--color-grey);
 }
 .text-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: white;
   width: 484px;
   height: 102px;
@@ -30,42 +42,136 @@
   list-style: none;
 }
 .button-one {
-  color: white;
-  background-color: orangered;
+  color: var(--color-white);
+  background-color: var(--color-orange);
   border-radius: 50px;
 }
 .botton-two {
-  color: white;
-  background-color: grey;
+  color: var(--color-white-two);
+  background-color: var(--color-grey);
 
   border-radius: 100px;
 }
 /* section-two */
 .section-two {
-  background-color: blueviolet;
+  background-color: var(--color-violet);
 }
 .list {
   list-style: none;
 }
 .text {
-  color: white;
-  font-family: "Raleway", sans-serif;
+  color: var(--color-white);
+  font-family: var(--logo-font);
   width: 150px;
   height: 22px;
 }
 .paragraphe {
-  font-family: "Roboto", sans-serif;
-  color: white;
+  font-family: var(--primary-font);
+  color: var(--color-white);
   width: 308px;
   height: 126px;
 }
+/* section-three */
+
 .section-three {
 }
 .text-ingredients {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-font);
   width: 412px;
   height: 56px;
 }
+.paragraphe-two {
+  color: var(--color-black);
+  width: 486px;
+  height: 72px;
+}
+.img-choco {
+  background-color: var(--color-orange);
+}
+.ing-cacao {
+  background-color: var(--color-orange);
+}
+.img-nuts {
+  background-color: var(--color-violet);
+}
+.img-coconut {
+  background-color: var(--color-violet);
+}
+
 .span {
-  color: chocolate;
+  color: var(--color-orange);
+}
+/* sectoin-foure */
+.title-recipe {
+  font-family: var(--logo-font);
+  color: var(--color-black);
+  width: 350px;
+  height: 48px;
+}
+.paragraphe-three {
+  font-family: var(--primary-font);
+  color: var(--color-black);
+  width: 436px;
+  height: 36px;
+}
+/* section-five */
+.title-products {
+  color: var(--color-black);
+  width: 1136;
+  height: 830;
+}
+.paragraphe-foure {
+  color: var(--color-grey);
+  width: 88px;
+  height: 14px;
+}
+/* section-six */
+.title-sellers {
+  width: 488px;
+  height: 28px;
+}
+/* section-seven */
+.paragraphe-five {
+  color: var(--color-grey);
+  width: 312px;
+  height: 72px;
+}
+.button-end {
+  width: 222px;
+  height: 50px;
+  border: 4px;
+  border-radius: 20px;
+  border-color: var(--color-orange);
+}
+/* footer */
+.footer {
+  background-color: var(--color-violet);
+}
+.logo-footer {
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: var(--logo-font);
+  width: 300px;
+  height: 68px;
+}
+.link-two {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.footer-paragraph {
+  font-family: var(--logo-font);
+  color: var(--color-white);
+  width: 77px;
+  height: 18px;
+}
+.adress-footer {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.button-footer {
+  background-color: var(--color-orange);
+  border-radius: 20px;
+  width: 137px;
+  height: 52px;
+  color: var(--color-white);
 }
