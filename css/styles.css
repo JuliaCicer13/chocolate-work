@@ -9,6 +9,9 @@
   --color-white: #fafafa;
   --color-white-two: #ffffff;
 }
+img {
+  display: block;
+}
 
 /* header */
 .header {
@@ -51,6 +54,7 @@
   gap: 24px;
   margin: auto;
 }
+
 .link {
   font-family: var(--primary-font);
   width: 43px;
@@ -60,7 +64,7 @@
 }
 /* section-one */
 .containar-one {
-  display: flex;
+  display: block;
   margin: auto;
 }
 .section-one {
@@ -70,12 +74,14 @@
   margin: auto;
   border-radius: 30px;
   border: 1px;
+  margin-bottom: 83px;
 }
 .text-title {
   font-family: var(--primary-font);
   color: white;
   width: 484px;
   height: 102px;
+  padding-top: 30px;
 }
 .botton-list {
   list-style: none;
@@ -98,17 +104,29 @@
   height: 50px;
 }
 /* section-two */
+.container-two {
+  display: flex;
+  margin: auto;
+}
 .section-two {
   background-color: var(--color-violet);
+  width: 1200px;
+  height: 266px;
+  margin: auto;
+  margin-bottom: 120px;
 }
 .list {
   list-style: none;
+  display: flex;
+  margin: auto;
+  gap: 88px;
 }
 .text {
   color: var(--color-white);
   font-family: var(--logo-font);
   width: 150px;
   height: 22px;
+  margin-bottom: 18px;
 }
 .paragraphe {
   font-family: var(--primary-font);
@@ -116,59 +134,116 @@
   width: 308px;
   height: 126px;
 }
-/* section-three */
 
+/* section-three */
+.container-three {
+  margin: auto;
+  margin-bottom: 120px;
+}
 .section-three {
+  margin: auto;
 }
 .text-ingredients {
   font-family: var(--logo-font);
   width: 412px;
   height: 56px;
+  margin: auto;
+  padding-bottom: 80px;
 }
 .paragraphe-two {
   color: var(--color-black);
   width: 486px;
   height: 72px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.list-images {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  gap: 32px;
+  margin-bottom: 120px;
 }
 .img-choco {
   background-color: var(--color-orange);
+  margin: auto;
 }
-.ing-cacao {
+.img-cacao {
   background-color: var(--color-orange);
+  margin: auto;
 }
 .img-nuts {
   background-color: var(--color-violet);
+  margin: auto;
 }
 .img-coconut {
   background-color: var(--color-violet);
+  margin: auto;
 }
 
 .span {
   color: var(--color-orange);
 }
 /* sectoin-foure */
+.container-four {
+  margin: auto;
+}
+.section-four {
+  margin: auto;
+  margin-bottom: 120px;
+}
+.title-main {
+  margin: auto;
+  width: 205px;
+  height: 28px;
+}
 .title-recipe {
   font-family: var(--logo-font);
   color: var(--color-black);
   width: 350px;
   height: 48px;
+  margin: auto;
+  margin-bottom: 28px;
+}
+.list-recipe {
+  list-style: none;
+  margin: auto;
+  gap: 24px;
 }
 .paragraphe-three {
   font-family: var(--primary-font);
   color: var(--color-black);
   width: 436px;
   height: 36px;
+  margin: auto;
 }
 /* section-five */
+.section-five {
+  margin: auto;
+}
+.container-five {
+  margin: auto;
+}
 .title-products {
   color: var(--color-black);
-  width: 1136;
-  height: 830;
+  width: 196px;
+  height: 28px;
+  margin: auto;
+}
+.list-products {
+  display: flex;
+  margin: auto;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.chocolates {
+  margin: auto;
 }
 .paragraphe-foure {
   color: var(--color-grey);
   width: 88px;
   height: 14px;
+  margin: auto;
 }
 /* section-six */
 .title-sellers {
