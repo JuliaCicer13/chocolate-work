@@ -244,6 +244,7 @@ img {
   width: 196px;
   height: 28px;
   margin: auto;
+  margin-bottom: 50px;
 }
 .list-products {
   display: flex;
@@ -252,7 +253,14 @@ img {
   flex-wrap: wrap;
 }
 .chocolates {
+  margin-bottom: 8px;
+}
+.title-chocolate {
   margin: auto;
+  text-align: center;
+}
+.title {
+  margin-bottom: 8px;
 }
 .paragraphe-foure {
   color: var(--color-grey);
@@ -264,6 +272,8 @@ img {
 .title-sellers {
   width: 488px;
   height: 28px;
+  text-align: center;
+  margin: auto;
 }
 /* section-seven */
 .paragraphe-five {
