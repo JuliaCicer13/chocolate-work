@@ -34,7 +34,7 @@ img {
 }
 .logo-chocolate {
   font-family: var(--logo-font);
-  font-weight: 700px;
+  font-weight: 700;
   height: 20px;
   color: var(--color-black);
   text-decoration: none;
@@ -66,6 +66,7 @@ img {
 .containar-one {
   display: block;
   margin: auto;
+  padding-top: 350px;
 }
 .section-one {
   background-color: var(--color-grey);
@@ -163,22 +164,27 @@ img {
   margin: auto;
   gap: 32px;
   margin-bottom: 120px;
+  flex-wrap: wrap;
 }
 .img-choco {
   background-color: var(--color-orange);
   margin: auto;
+  border-radius: 10px;
 }
 .img-cacao {
   background-color: var(--color-orange);
   margin: auto;
+  border-radius: 10px;
 }
 .img-nuts {
   background-color: var(--color-violet);
   margin: auto;
+  border-radius: 10px;
 }
 .img-coconut {
   background-color: var(--color-violet);
   margin: auto;
+  border-radius: 10px;
 }
 
 .span {
@@ -196,15 +202,23 @@ img {
   margin: auto;
   width: 205px;
   height: 28px;
+  display: flex;
+}
+.img-choco-made {
+  display: flex;
+  display: block;
+  justify-content: center;
 }
 .title-recipe {
   font-family: var(--logo-font);
   color: var(--color-black);
   width: 350px;
   height: 48px;
-  margin: auto;
   margin-bottom: 28px;
   align-items: center;
+  margin-bottom: 28px;
+  margin: auto;
+  display: flex;
 }
 .list-recipe {
   list-style: none;
