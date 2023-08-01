@@ -68,6 +68,7 @@ img {
 }
 .section-one {
   background-color: var(--color-grey);
+  background-image: url(../images/chocolate_main.jpg);
   width: 1136px;
   height: 600px;
   margin: auto;
@@ -94,6 +95,31 @@ img {
   width: 144px;
   height: 45px;
 }
+.button-one:hover {
+  color: red;
+}
+.button-one:focus {
+  color: var(--color-violet);
+}
+.button-one:hover {
+  background-color: var(--color-black);
+}
+.button-one:focus {
+  background-color: red;
+}
+.button-two:hover {
+  color: var(--color-black);
+}
+.button-two:focus {
+  color: var(--color-orange);
+}
+.button-two:hover {
+  background-color: var(--color-white);
+}
+.button-two:focus {
+  background-color: var(--color-violet);
+}
+
 .button-two {
   color: var(--color-white-two);
   background-color: var(--color-grey);
@@ -201,18 +227,26 @@ img {
   width: 205px;
   height: 28px;
   display: flex;
+  margin-bottom: 50px;
+}
+.container-img {
+  margin: auto;
 }
 .img-choco-made {
   display: flex;
   display: block;
   justify-content: center;
+  margin-right: 20px;
+  margin: auto;
+}
+.container-text-four {
+  margin: auto;
 }
 .title-recipe {
   font-family: var(--logo-font);
   color: var(--color-black);
   width: 350px;
   height: 48px;
-  margin-bottom: 28px;
   align-items: center;
   margin-bottom: 28px;
   margin: auto;
@@ -236,6 +270,7 @@ img {
 }
 .container-five {
   margin: auto;
+  margin-bottom: 120px;
 }
 .title-products {
   color: var(--color-black);
@@ -252,6 +287,7 @@ img {
 }
 .chocolates {
   margin-bottom: 8px;
+  margin: auto;
 }
 .title-chocolate {
   margin: auto;
@@ -267,17 +303,80 @@ img {
   margin: auto;
 }
 /* section-six */
+.section-six {
+  margin: auto;
+}
+.container-six {
+  margin: auto;
+  margin-bottom: 120px;
+}
 .title-sellers {
   width: 488px;
   height: 28px;
   text-align: center;
   margin: auto;
+  margin-bottom: 50px;
+}
+.list-sellers {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.list-shock {
+  margin: auto;
+}
+.title-six {
+  text-align: center;
+  margin-top: 28px;
+  font-family: var(--primary-font);
 }
 /* section-seven */
+.section-seven {
+  margin: auto;
+  display: flex;
+}
+.container-seven {
+  margin: auto;
+  margin-bottom: 220px;
+  width: 1136px;
+  height: 418px;
+  margin-bottom: 50px;
+}
+.list-comand {
+  display: flex;
+}
+.img-comand {
+  list-style: none;
+  margin-bottom: 18px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.container-text-seven {
+  gap: 28px;
+}
+.title-seven {
+  text-align: center;
+  margin-bottom: 24px;
+}
 .paragraphe-five {
   color: var(--color-grey);
   width: 312px;
   height: 72px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* button-end */
+.container-button-end {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.section-button-end {
+  margin: auto;
+  align-items: center;
 }
 .button-end {
   width: 222px;
@@ -285,10 +384,15 @@ img {
   border: 4px;
   border-radius: 20px;
   border-color: var(--color-orange);
+  align-items: center;
+  margin-bottom: 100px;
 }
 /* footer */
 .footer {
   background-color: var(--color-violet);
+  width: 1200px;
+  height: 298px;
+  margin: auto;
 }
 .logo-footer {
   color: var(--color-white);
@@ -296,6 +400,13 @@ img {
   font-family: var(--logo-font);
   width: 300px;
   height: 68px;
+  margin-bottom: 78px;
+}
+.list-link-footer {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  gap: 24px;
 }
 .link-two {
   color: var(--color-white);
