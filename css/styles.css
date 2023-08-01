@@ -22,16 +22,15 @@ img {
 }
 
 .container-nav {
-  display: flex;
   width: 1136px;
   height: 80px;
   margin: auto;
-  justify-content: flex-end;
 }
 
 .nav {
   display: flex;
 }
+
 .logo-chocolate {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -41,7 +40,6 @@ img {
   display: flex;
   margin-top: 24px;
   margin-bottom: 34px;
-  margin: auto;
 }
 
 .logo-chocolate:hover {
