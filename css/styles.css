@@ -119,6 +119,9 @@ img {
 .button-two:focus {
   background-color: var(--color-violet);
 }
+.button-two:hover {
+  border-color: var(--color-orange);
+}
 
 .button-two {
   color: var(--color-white-two);
@@ -127,7 +130,9 @@ img {
   border-color: var(--color-white);
   width: 183px;
   height: 50px;
+  border: 1px solid #e7e9fc;
 }
+
 /* section-two */
 .container-two {
   display: flex;
@@ -434,6 +439,7 @@ img {
   list-style: none;
   display: flex;
   gap: 24px;
+  margin-top: 78px;
 }
 .link-two {
   color: var(--color-white);
