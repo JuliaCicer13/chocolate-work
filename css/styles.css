@@ -289,6 +289,9 @@ img {
   margin-bottom: 8px;
   margin: auto;
 }
+.img-chocolates {
+  margin: auto;
+}
 .title-chocolate {
   margin: auto;
   text-align: center;
@@ -329,7 +332,7 @@ img {
 }
 .title-six {
   text-align: center;
-  margin-top: 28px;
+
   font-family: var(--primary-font);
 }
 /* section-seven */
@@ -346,13 +349,22 @@ img {
 }
 .list-comand {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .img-comand {
   list-style: none;
   margin-bottom: 18px;
+}
+.viktoria {
   margin: auto;
-  display: flex;
-  justify-content: center;
+}
+.nazar {
+  margin: auto;
+}
+.olena {
+  margin: auto;
 }
 .container-text-seven {
   gap: 28px;
@@ -394,17 +406,20 @@ img {
   height: 298px;
   margin: auto;
 }
+.container-footer {
+  padding-top: 60px;
+}
 .logo-footer {
   color: var(--color-white);
   text-decoration: none;
   font-family: var(--logo-font);
   width: 300px;
   height: 68px;
-  margin-bottom: 78px;
+  padding-left: 32px;
 }
 .list-link-footer {
   list-style: none;
-  margin: auto;
+
   display: flex;
   gap: 24px;
 }
@@ -412,15 +427,32 @@ img {
   color: var(--color-white);
   text-decoration: none;
 }
+.container-adress {
+  justify-content: end;
+  display: flex;
+}
 .footer-paragraph {
   font-family: var(--logo-font);
   color: var(--color-white);
   width: 77px;
   height: 18px;
 }
+.list-adress {
+  list-style: none;
+}
+.telephone {
+  margin-bottom: 4px;
+}
+.mail {
+}
 .adress-footer {
   color: var(--color-white);
   text-decoration: none;
+}
+.container-button-footer {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: end;
 }
 .button-footer {
   background-color: var(--color-orange);
