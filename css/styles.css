@@ -149,8 +149,6 @@ img {
 .text {
   color: var(--color-white);
   font-family: var(--logo-font);
-  width: 150px;
-  height: 22px;
   margin-bottom: 18px;
 }
 .paragraphe {
@@ -217,30 +215,25 @@ img {
 /* sectoin-foure */
 .container-four {
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .section-four {
-  margin: auto;
   margin-bottom: 120px;
 }
 .title-main {
   margin: auto;
   width: 205px;
   height: 28px;
-  display: flex;
   margin-bottom: 50px;
 }
 .container-img {
-  margin: auto;
+  margin-right: 20px;
 }
 .img-choco-made {
-  display: flex;
   display: block;
-  justify-content: center;
-  margin-right: 20px;
-  margin: auto;
 }
 .container-text-four {
-  margin: auto;
 }
 .title-recipe {
   font-family: var(--logo-font);
@@ -249,20 +242,28 @@ img {
   height: 48px;
   align-items: center;
   margin-bottom: 28px;
-  margin: auto;
-  display: flex;
 }
 .list-recipe {
-  list-style: none;
-  margin: auto;
-  gap: 24px;
+  list-style: disc;
 }
 .paragraphe-three {
   font-family: var(--primary-font);
   color: var(--color-black);
-  width: 436px;
-  height: 36px;
-  margin: auto;
+}
+.paragraphe-three-one {
+  margin-bottom: 24px;
+}
+.paragraphe-three-two {
+  margin-bottom: 24px;
+}
+.paragraphe-three-three {
+  margin-bottom: 24px;
+}
+.paragraphe-three-foure {
+  margin-bottom: 24px;
+}
+.paragraphe-three-five {
+  margin-bottom: 24px;
 }
 /* section-five */
 .section-five {
@@ -399,6 +400,18 @@ img {
   align-items: center;
   margin-bottom: 100px;
 }
+.button-end:hover {
+  color: brown;
+}
+.button-end:focus {
+  color: var(--color-violet);
+}
+.button-end:hover {
+  background-color: greenyellow;
+}
+.button-end:focus {
+  background-color: chocolate;
+}
 /* footer */
 .footer {
   background-color: var(--color-violet);
@@ -419,7 +432,6 @@ img {
 }
 .list-link-footer {
   list-style: none;
-
   display: flex;
   gap: 24px;
 }
@@ -436,6 +448,8 @@ img {
   color: var(--color-white);
   width: 77px;
   height: 18px;
+}
+.main-adress {
 }
 .list-adress {
   list-style: none;
