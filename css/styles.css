@@ -12,13 +12,19 @@
 img {
   display: block;
 }
-
+body {
+  margin: auto;
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
 /* header */
 .header {
   border: 1px;
   display: flex;
   border-color: #1e1823;
   margin: auto;
+  width: 1136px;
+  height: 80px;
 }
 
 .container-nav {
@@ -40,6 +46,7 @@ img {
   display: flex;
   margin-top: 24px;
   margin-bottom: 34px;
+  line-height: 1.15;
 }
 
 .logo-chocolate:hover {
@@ -51,6 +58,7 @@ img {
   display: flex;
   gap: 24px;
   margin: auto;
+  line-height: 1.15;
 }
 
 .link {
@@ -59,14 +67,16 @@ img {
   height: 16px;
   text-decoration: none;
   color: var(--color-black);
+  line-height: 1.15;
 }
-.icon-cosial {
+.icon-social {
   list-style: none;
   display: flex;
   gap: 14px;
   align-items: center;
 }
-
+.icon-soc {
+}
 /* section-one */
 .containar-one {
   display: block;
@@ -89,6 +99,7 @@ img {
   width: 484px;
   height: 102px;
   padding-top: 30px;
+  line-height: 1.15;
 }
 .botton-list {
   list-style: none;
@@ -101,6 +112,7 @@ img {
   border-radius: 50px;
   width: 144px;
   height: 45px;
+  line-height: 1.15;
 }
 .button-two {
   color: var(--color-white-two);
@@ -110,6 +122,7 @@ img {
   width: 183px;
   height: 50px;
   border: 1px solid #e7e9fc;
+  line-height: 1.15;
 }
 
 .button-one:hover {
@@ -148,7 +161,7 @@ img {
 .section-two {
   background-color: var(--color-violet);
   width: 1200px;
-  height: 266px;
+  height: 350px;
   margin: auto;
   margin-bottom: 120px;
 }
@@ -162,16 +175,29 @@ img {
   color: var(--color-white);
   font-family: var(--logo-font);
   margin-bottom: 18px;
+  line-height: 1.15;
 }
 .paragraphe {
   font-family: var(--primary-font);
   color: var(--color-white);
   width: 308px;
   height: 126px;
+  line-height: 1.15;
+}
+.icon-section-two {
+  border: solid 1px;
+  border-radius: 100px;
+  border-color: var(--color-white);
+  width: 62px;
+  height: 62px;
+  margin-top: 15px;
+  margin-top: 50px;
 }
 .icon-choc {
-  border-radius: 50px;
-  border: solid 1px var(--color-beige);
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-left: 17px;
+  margin-right: 17px;
 }
 /* section-three */
 .container-three {
@@ -180,6 +206,8 @@ img {
 }
 .section-three {
   margin: auto;
+  width: 1136px;
+  height: 770px;
 }
 .text-ingredients {
   font-family: var(--logo-font);
@@ -187,6 +215,7 @@ img {
   height: 56px;
   margin: auto;
   padding-bottom: 80px;
+  line-height: 1.15;
 }
 .paragraphe-two {
   color: var(--color-black);
@@ -194,35 +223,62 @@ img {
   height: 72px;
   margin: auto;
   margin-bottom: 50px;
+  line-height: 1.15;
 }
 .list-images {
   list-style: none;
   display: flex;
   margin: auto;
-  gap: 32px;
   margin-bottom: 120px;
   flex-wrap: wrap;
-  width: calc((100% - 32px) / 2);
 }
 .img-choco {
   background-color: var(--color-orange);
-  margin: auto;
+
   border-radius: 10px;
+  border: solid 1px;
+  border-color: var(--color-orange);
+  margin-right: 32px;
+  margin-bottom: 24px;
 }
 .img-cacao {
   background-color: var(--color-orange);
-  margin: auto;
   border-radius: 10px;
+  border: solid 1px;
+  border-color: var(--color-orange);
+  margin-right: 32px;
 }
 .img-nuts {
   background-color: var(--color-violet);
-  margin: auto;
   border-radius: 10px;
+  border: solid 1px;
+  margin-right: 32px;
+  margin-bottom: 24px;
 }
 .img-coconut {
   background-color: var(--color-violet);
-  margin: auto;
   border-radius: 10px;
+  border: solid 1px;
+}
+.img-bobs {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: var(--color-orange);
+  margin-right: 32px;
+  margin-bottom: 24px;
+}
+.img-milk {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: var(--color-orange);
+  margin-right: 32px;
+  margin-bottom: 24px;
+}
+.img-strewberry {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: var(--color-orange);
+  margin-right: 32px;
 }
 
 .span {
@@ -233,6 +289,8 @@ img {
   margin: auto;
   display: flex;
   justify-content: center;
+  width: 1136px;
+  height: 478px;
 }
 .section-four {
   margin-bottom: 120px;
@@ -242,6 +300,7 @@ img {
   width: 205px;
   height: 28px;
   margin-bottom: 50px;
+  line-height: 1.15;
 }
 .container-img {
   margin-right: 20px;
@@ -258,6 +317,7 @@ img {
   height: 48px;
   align-items: center;
   margin-bottom: 28px;
+  line-height: 1.15;
 }
 .list-recipe {
   list-style: disc;
@@ -265,29 +325,37 @@ img {
 .paragraphe-three {
   font-family: var(--primary-font);
   color: var(--color-black);
+  line-height: 1.15;
 }
 .paragraphe-three-one {
   margin-bottom: 24px;
+  line-height: 1.15;
 }
 .paragraphe-three-two {
   margin-bottom: 24px;
+  line-height: 1.15;
 }
 .paragraphe-three-three {
   margin-bottom: 24px;
+  line-height: 1.15;
 }
 .paragraphe-three-foure {
   margin-bottom: 24px;
+  line-height: 1.15;
 }
 .paragraphe-three-five {
   margin-bottom: 24px;
+  line-height: 1.15;
 }
 /* section-five */
 .section-five {
   margin: auto;
+  width: 1136px;
+  height: 830px;
+  margin-bottom: 120px;
 }
 .container-five {
   margin: auto;
-  margin-bottom: 120px;
 }
 .title-products {
   color: var(--color-black);
@@ -295,6 +363,7 @@ img {
   height: 28px;
   margin: auto;
   margin-bottom: 50px;
+  line-height: 1.15;
 }
 .list-products {
   display: flex;
@@ -303,29 +372,42 @@ img {
   flex-wrap: wrap;
 }
 .chocolates {
-  gap: 8px;
-  margin: auto;
   width: calc((100% - 38px) / 4);
+}
+.container-chocolate {
+  margin: auto;
+  border: solid 1px;
+  border-radius: 20px;
+  width: 270px;
+  height: 364px;
+  margin-right: 18px;
+  margin-bottom: 24px;
 }
 .img-chocolates {
   margin: auto;
 }
+
 .title-chocolate {
   margin: auto;
   text-align: center;
+  line-height: 1.15;
 }
 .title {
+  margin-top: 8px;
   margin-bottom: 8px;
+  line-height: 1.15;
 }
 .paragraphe-foure {
   color: var(--color-grey);
-  width: 88px;
-  height: 14px;
   margin: auto;
+  line-height: 1.15;
 }
 /* section-six */
 .section-six {
   margin: auto;
+  width: 1136px;
+  height: 622px;
+  margin-bottom: 109px;
 }
 .container-six {
   margin: auto;
@@ -337,6 +419,8 @@ img {
   text-align: center;
   margin: auto;
   margin-bottom: 50px;
+  line-height: 1.15;
+  margin-top: 131px;
 }
 .list-sellers {
   list-style: none;
@@ -348,15 +432,23 @@ img {
 .list-shock {
   margin: auto;
 }
+.title-picture {
+  border: solid 1px;
+  border-radius: 20px;
+  border-color: var(--color-violet);
+}
 .title-six {
   text-align: center;
-
+  line-height: 1.15;
   font-family: var(--primary-font);
 }
 /* section-seven */
 .section-seven {
   margin: auto;
   display: flex;
+  width: 1136px;
+  height: 418px;
+  margin-bottom: 120px;
 }
 .container-seven {
   margin: auto;
@@ -365,6 +457,13 @@ img {
   height: 418px;
   margin-bottom: 50px;
 }
+.title-seven-main {
+  margin: auto;
+  line-height: 1.15;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .list-comand {
   display: flex;
   justify-content: center;
@@ -375,6 +474,9 @@ img {
   list-style: none;
   margin-bottom: 18px;
 }
+.container-text-seven {
+  gap: 28px;
+}
 .viktoria {
   margin: auto;
 }
@@ -384,8 +486,13 @@ img {
 .olena {
   margin: auto;
 }
-.container-text-seven {
-  gap: 28px;
+.container-title-seven {
+  width: 360px;
+  height: 200px;
+  border: solid 1px;
+  border-radius: 20px;
+  border-color: var(--color-grey);
+  margin-right: 28px;
 }
 .title-seven {
   text-align: center;
@@ -411,7 +518,7 @@ img {
 .button-end {
   width: 222px;
   height: 50px;
-  border: 4px;
+  border: solid 1px;
   border-radius: 20px;
   border-color: var(--color-orange);
   align-items: center;
