@@ -47,6 +47,7 @@ body {
   margin-top: 24px;
   margin-bottom: 34px;
   line-height: 1.15;
+  padding-top: 10px;
 }
 
 .logo-chocolate:hover {
@@ -59,6 +60,7 @@ body {
   gap: 24px;
   margin: auto;
   line-height: 1.15;
+  padding-top: 10px;
 }
 
 .link {
@@ -68,12 +70,14 @@ body {
   text-decoration: none;
   color: var(--color-black);
   line-height: 1.15;
+  font-weight: 500;
 }
 .icon-social {
   list-style: none;
   display: flex;
   gap: 14px;
   align-items: center;
+  padding-top: 10px;
 }
 .icon-soc {
 }
@@ -100,6 +104,9 @@ body {
   height: 102px;
   padding-top: 30px;
   line-height: 1.15;
+  font-weight: 400;
+  letter-spacing: 0.04px;
+  margin-left: 40px;
 }
 .botton-list {
   list-style: none;
@@ -176,6 +183,8 @@ body {
   font-family: var(--logo-font);
   margin-bottom: 18px;
   line-height: 1.15;
+  letter-spacing: 0.04em;
+  font-weight: 100;
 }
 .paragraphe {
   font-family: var(--primary-font);
@@ -183,6 +192,9 @@ body {
   width: 308px;
   height: 126px;
   line-height: 1.15;
+  font-weight: 100;
+  opacity: 0.5;
+  letter-spacing: 0.04em;
 }
 .icon-section-two {
   border: solid 1px;
@@ -216,7 +228,10 @@ body {
   margin: auto;
   padding-bottom: 80px;
   line-height: 1.15;
+  letter-spacing: 0.04em;
+  font-weight: 400;
 }
+
 .paragraphe-two {
   color: var(--color-black);
   width: 486px;
@@ -224,6 +239,7 @@ body {
   margin: auto;
   margin-bottom: 50px;
   line-height: 1.15;
+  font-weight: 400;
 }
 .list-images {
   list-style: none;
@@ -234,19 +250,31 @@ body {
 }
 .img-choco {
   background-color: var(--color-orange);
-
   border-radius: 10px;
   border: solid 1px;
   border-color: var(--color-orange);
   margin-right: 32px;
   margin-bottom: 24px;
 }
+.text-milk-chocolate {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 28px;
+}
+
 .img-cacao {
   background-color: var(--color-orange);
   border-radius: 10px;
   border: solid 1px;
   border-color: var(--color-orange);
   margin-right: 32px;
+}
+.text-cacao {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 28px;
 }
 .img-nuts {
   background-color: var(--color-violet);
@@ -255,10 +283,23 @@ body {
   margin-right: 32px;
   margin-bottom: 24px;
 }
+.text-nuts {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 28px;
+}
+
 .img-coconut {
   background-color: var(--color-violet);
   border-radius: 10px;
   border: solid 1px;
+}
+.text-coconut {
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 28px;
 }
 .img-bobs {
   border: solid 1px;
@@ -267,6 +308,14 @@ body {
   margin-right: 32px;
   margin-bottom: 24px;
 }
+.text-semi-sweet {
+  font-weight: 700;
+  font-size: 15px;
+  margin: auto;
+  color: var(--color-black);
+  text-align: center;
+  margin-top: 15px;
+}
 .img-milk {
   border: solid 1px;
   border-radius: 10px;
@@ -274,13 +323,24 @@ body {
   margin-right: 32px;
   margin-bottom: 24px;
 }
+.text-milk {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 28px;
+  color: var(--color-black);
+}
 .img-strewberry {
   border: solid 1px;
   border-radius: 10px;
   border-color: var(--color-orange);
   margin-right: 32px;
 }
-
+.text-raspberry {
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 28px;
+}
 .span {
   color: var(--color-orange);
 }
@@ -309,6 +369,11 @@ body {
   display: block;
 }
 .container-text-four {
+  border: solid 1px;
+  border-radius: 20px;
+  width: 516px;
+  height: 400px;
+  border-color: lightgray;
 }
 .title-recipe {
   font-family: var(--logo-font);
@@ -318,6 +383,10 @@ body {
   align-items: center;
   margin-bottom: 28px;
   line-height: 1.15;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  margin-left: 32px;
 }
 .list-recipe {
   list-style: disc;
@@ -330,22 +399,32 @@ body {
 .paragraphe-three-one {
   margin-bottom: 24px;
   line-height: 1.15;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 .paragraphe-three-two {
   margin-bottom: 24px;
   line-height: 1.15;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 .paragraphe-three-three {
   margin-bottom: 24px;
   line-height: 1.15;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 .paragraphe-three-foure {
   margin-bottom: 24px;
   line-height: 1.15;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 .paragraphe-three-five {
   margin-bottom: 24px;
   line-height: 1.15;
+  font-size: 15px;
+  letter-spacing: 0.04em;
 }
 /* section-five */
 .section-five {
@@ -363,7 +442,6 @@ body {
   height: 28px;
   margin: auto;
   margin-bottom: 50px;
-  line-height: 1.15;
 }
 .list-products {
   display: flex;
@@ -382,7 +460,9 @@ body {
   height: 364px;
   margin-right: 18px;
   margin-bottom: 24px;
+  border-color: lightgray;
 }
+
 .img-chocolates {
   margin: auto;
 }
@@ -396,11 +476,17 @@ body {
   margin-top: 8px;
   margin-bottom: 8px;
   line-height: 1.15;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.4;
 }
 .paragraphe-foure {
   color: var(--color-grey);
   margin: auto;
   line-height: 1.15;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.4;
 }
 /* section-six */
 .section-six {
@@ -436,11 +522,15 @@ body {
   border: solid 1px;
   border-radius: 20px;
   border-color: var(--color-violet);
+  border-color: lightgray;
 }
 .title-six {
   text-align: center;
-  line-height: 1.15;
   font-family: var(--primary-font);
+  line-height: 1.15;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.4;
 }
 /* section-seven */
 .section-seven {
@@ -491,12 +581,15 @@ body {
   height: 200px;
   border: solid 1px;
   border-radius: 20px;
-  border-color: var(--color-grey);
+  border-color: lightgray;
   margin-right: 28px;
 }
 .title-seven {
   text-align: center;
   margin-bottom: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.4;
 }
 .paragraphe-five {
   color: var(--color-grey);
@@ -504,6 +597,8 @@ body {
   height: 72px;
   margin-bottom: 50px;
   text-align: center;
+  align-items: center;
+  margin: auto;
 }
 /* button-end */
 .container-button-end {
@@ -523,6 +618,10 @@ body {
   border-color: var(--color-orange);
   align-items: center;
   margin-bottom: 100px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.5;
+  font-size: 15px;
 }
 .button-end:hover {
   color: brown;
@@ -553,6 +652,10 @@ body {
   width: 300px;
   height: 68px;
   padding-left: 32px;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: 0.5;
+  font-size: 23px;
 }
 .list-link-footer {
   list-style: none;
@@ -562,16 +665,24 @@ body {
 .link-two {
   color: var(--color-white);
   text-decoration: none;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.5;
+  font-size: 15px;
 }
 .container-adress {
   justify-content: end;
   display: flex;
+  margin: auto;
 }
 .footer-paragraph {
   font-family: var(--logo-font);
   color: var(--color-white);
   width: 77px;
   height: 18px;
+  font-weight: 200;
+  letter-spacing: 0.5;
+  font-size: 15px;
 }
 .main-adress {
 }
@@ -586,6 +697,9 @@ body {
 .adress-footer {
   color: var(--color-white);
   text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.5;
+  font-size: 15px;
 }
 .container-button-footer {
   margin-bottom: 50px;
@@ -598,4 +712,8 @@ body {
   width: 137px;
   height: 52px;
   color: var(--color-white);
+  margin-right: 32px;
+  font-weight: 500;
+  letter-spacing: 0.5;
+  font-size: 15px;
 }
