@@ -83,12 +83,15 @@ body {
   fill: transparent;
   stroke: var(--color-black);
 }
+.icon-soc:hover {
+  stroke: #fd9222;
+}
 
 /* section-one */
 .containar-one {
   display: block;
   margin: auto;
-  padding-top: 350px;
+  padding-top: 300px;
 }
 .section-one {
   background-color: var(--color-grey);
@@ -136,25 +139,26 @@ body {
 }
 
 .button-one:hover {
-  color: red;
+  color: var(--color-orange);
 }
 .button-one:focus {
   color: var(--color-violet);
 }
 .button-one:hover {
-  background-color: var(--color-black);
+  background-color: var(--color-beige);
 }
 .button-one:focus {
   background-color: red;
 }
+
 .button-two:hover {
-  color: var(--color-black);
+  color: var(--color-orange);
 }
 .button-two:focus {
   color: var(--color-orange);
 }
 .button-two:hover {
-  background-color: var(--color-white);
+  background-color: var(--color-grey);
 }
 .button-two:focus {
   background-color: var(--color-violet);
@@ -162,7 +166,37 @@ body {
 .button-two:hover {
   border-color: var(--color-orange);
 }
-
+.container-scroll {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.list-scroll {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.scroll-down {
+  color: var(--color-white);
+  line-height: 1.15;
+  font-weight: 400;
+  letter-spacing: 0.04px;
+  margin-right: 14px;
+}
+.container-icon {
+  border: solid 1px;
+  border-radius: 100px;
+  border-color: #e7e9fc;
+  width: 38px;
+  height: 38px;
+  background-color: #fafafa;
+}
+.icon-scroll {
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
 /* section-two */
 .container-two {
   display: flex;
@@ -668,16 +702,16 @@ a:focus .text-transform {
   font-size: 15px;
 }
 .button-end:hover {
-  color: brown;
+  color: var(--color-white);
 }
 .button-end:focus {
   color: var(--color-violet);
 }
 .button-end:hover {
-  background-color: greenyellow;
+  background-color: var(--color-orange);
 }
 .button-end:focus {
-  background-color: chocolate;
+  background-color: var(--color-orange);
 }
 /* footer */
 .footer {
@@ -738,6 +772,9 @@ a:focus .text-transform {
   stroke: var(--color-white);
   margin-right: 14px;
   align-items: center;
+}
+.icon-soc-two:hover {
+  stroke: var(--color-orange);
 }
 /* social-adress */
 .container-adress {
