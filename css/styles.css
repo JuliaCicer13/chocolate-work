@@ -736,17 +736,19 @@ a:focus .text-transform {
   margin: auto;
 }
 .container-footer {
-  padding-top: 60px;
+  padding-top: 50px;
 }
+
 .logo-footer {
   color: var(--color-white);
   text-decoration: none;
   font-family: var(--logo-font);
   width: 300px;
   height: 68px;
-  padding-left: 32px;
+  margin-left: 32px;
   line-height: 1.15;
   font-size: 23px;
+  text-align: center;
 }
 .list-link-footer {
   list-style: none;
@@ -777,11 +779,13 @@ a:focus .text-transform {
   font-size: 16px;
   letter-spacing: 0.02em;
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .list-img-soc {
   display: flex;
   list-style: none;
+  margin-right: 40px;
 }
 .icon-soc-two {
   fill: transparent;
@@ -800,12 +804,14 @@ a:focus .text-transform {
 .footer-paragraph {
   font-family: var(--logo-font);
   color: var(--color-white);
-  display: flex;
   font-weight: 500;
   letter-spacing: 0.5;
-  font-size: 15px;
   margin-bottom: 14px;
-  font-size: 16px;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 30px;
+  height: 18px;
+  line-height: 1.15;
 }
 .main-adress {
   color: var(--color-white);
@@ -833,7 +839,7 @@ a:focus .text-transform {
   margin-bottom: 50px;
   display: flex;
   justify-content: end;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .form {
   display: flex;
