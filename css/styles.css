@@ -748,7 +748,6 @@ a:focus .text-transform {
   margin-left: 32px;
   line-height: 1.15;
   font-size: 23px;
-  text-align: center;
 }
 .list-link-footer {
   list-style: none;
@@ -798,7 +797,6 @@ a:focus .text-transform {
 }
 /* social-adress */
 .container-adress {
-  margin-left: 50px;
   margin-right: 32px;
 }
 .footer-paragraph {
