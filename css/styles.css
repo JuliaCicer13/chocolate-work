@@ -130,6 +130,8 @@ body {
   width: 144px;
   height: 45px;
   line-height: 1.15;
+  font-size: 17px;
+  font-weight: 400;
 }
 .button-two {
   color: var(--color-white-two);
@@ -140,6 +142,8 @@ body {
   height: 50px;
   border: 1px solid #e7e9fc;
   line-height: 1.15;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .button-one:hover {
@@ -253,7 +257,8 @@ body {
   margin-bottom: 18px;
   line-height: 1.15;
   letter-spacing: 0.04em;
-  font-weight: 100;
+  font-weight: 400;
+  font-size: 18px;
 }
 .paragraphe {
   font-family: var(--primary-font);
@@ -264,6 +269,20 @@ body {
   font-weight: 100;
   opacity: 0.5;
   letter-spacing: 0.04em;
+  font-weight: 90;
+  font-size: 16px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .icon-section-two {
   border: solid 1px;
@@ -271,14 +290,14 @@ body {
   border-color: var(--color-white);
   width: 62px;
   height: 62px;
-  margin-top: 15px;
+  margin-top: 14px;
   margin-top: 50px;
 }
 .icon-choc {
-  margin-top: 17px;
+  margin-top: 15px;
   margin-bottom: 17px;
   margin-left: 17px;
-  margin-right: 17px;
+  margin-right: 13px;
 }
 /* section-three */
 .container-three {
@@ -298,7 +317,8 @@ body {
   padding-bottom: 80px;
   line-height: 1.15;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 23px;
 }
 
 .paragraphe-two {
@@ -309,6 +329,7 @@ body {
   margin-bottom: 50px;
   line-height: 1.15;
   font-weight: 400;
+  letter-spacing: 0.04em;
 }
 .list-images {
   list-style: none;
@@ -327,9 +348,12 @@ body {
 }
 .text-milk-chocolate {
   color: var(--color-white);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   margin-left: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
 .img-cacao {
@@ -344,6 +368,9 @@ body {
   font-weight: 500;
   font-size: 15px;
   margin-left: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 .img-nuts {
   background-color: var(--color-violet);
@@ -357,6 +384,9 @@ body {
   font-weight: 500;
   font-size: 15px;
   margin-left: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
 .img-coconut {
@@ -369,6 +399,9 @@ body {
   font-weight: 500;
   font-size: 15px;
   margin-left: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 .img-bobs {
   border: solid 1px;
@@ -384,6 +417,9 @@ body {
   color: var(--color-black);
   text-align: center;
   margin-top: 15px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 .img-milk {
   border: solid 1px;
@@ -393,10 +429,12 @@ body {
   margin-bottom: 24px;
 }
 .text-milk {
-  font-weight: 600;
   font-size: 15px;
   margin-left: 28px;
   color: var(--color-black);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 .img-strewberry {
   border: solid 1px;
@@ -406,9 +444,11 @@ body {
 }
 .text-raspberry {
   color: var(--color-black);
-  font-weight: 600;
   font-size: 15px;
   margin-left: 28px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 .span {
   color: var(--color-orange);
@@ -430,6 +470,8 @@ body {
   height: 28px;
   margin-bottom: 50px;
   line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
 }
 .container-img {
   margin-right: 20px;
@@ -470,30 +512,35 @@ body {
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
+  font-weight: 400;
 }
 .paragraphe-three-two {
   margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
+  font-weight: 400;
 }
 .paragraphe-three-three {
   margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
+  font-weight: 400;
 }
 .paragraphe-three-foure {
   margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
+  font-weight: 400;
 }
 .paragraphe-three-five {
   margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
+  font-weight: 400;
 }
 /* section-five */
 .section-five {
@@ -511,6 +558,8 @@ body {
   height: 28px;
   margin: auto;
   margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 700;
 }
 .list-products {
   display: flex;
@@ -519,13 +568,13 @@ body {
   flex-wrap: wrap;
 }
 .chocolates {
-  width: calc((100% - 38px) / 4);
+  width: calc((100% - 18px) / 4);
 }
 .container-chocolate {
   margin: auto;
   border: solid 1px;
-  border-radius: 20px;
-  width: 270px;
+  border-radius: 13px;
+  width: 250px;
   height: 364px;
   margin-right: 18px;
   margin-bottom: 24px;
@@ -533,7 +582,9 @@ body {
 }
 
 .img-chocolates {
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .title-chocolate {
@@ -772,8 +823,7 @@ a:focus .text-transform {
   display: flex;
   justify-content: end;
 }
-.container-social-net {
-}
+
 .paragraphe-soc {
   font-family: var(--primary-font);
   color: var(--color-white);
@@ -800,7 +850,7 @@ a:focus .text-transform {
   stroke: var(--color-orange);
 }
 /* social-adress */
-.container-adress {
+.main-adress {
   margin-right: 32px;
 }
 .footer-paragraph {
