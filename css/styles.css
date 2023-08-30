@@ -770,6 +770,7 @@ a:focus .text-transform {
   font-weight: 700;
   letter-spacing: 0.5;
   font-size: 15px;
+  background-color: transparent;
 }
 .button-end:hover {
   color: var(--color-white);
@@ -798,11 +799,11 @@ a:focus .text-transform {
   color: var(--color-white);
   text-decoration: none;
   font-family: var(--logo-font);
-  width: 300px;
-  height: 68px;
   margin-left: 32px;
   line-height: 1.15;
   font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 .list-link-footer {
   list-style: none;
