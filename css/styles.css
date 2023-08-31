@@ -191,6 +191,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.04px;
   margin-right: 14px;
+  cursor: pointer;
 }
 .scroll-down:hover {
   color: #fd9222;
@@ -803,6 +804,8 @@ a:focus .text-transform {
   font-size: 23px;
   font-weight: 700;
   letter-spacing: 0.02em;
+  max-width: 300px;
+  height: 68px;
 }
 .list-link-footer {
   list-style: none;
