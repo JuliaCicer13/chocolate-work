@@ -85,8 +85,8 @@ body {
   margin-right: 14px;
 }
 .icon-soc {
-  fill: transparent;
-  stroke: var(--color-black);
+  fill: black;
+  stroke: var(--color-white);
 }
 .icon-soc:hover {
   stroke: #fd9222;
@@ -984,4 +984,7 @@ a:focus .text-transform {
   height: 56px;
   font-size: 25px;
   letter-spacing: 0.02em;
+}
+.container-input {
+  margin-bottom: 18px;
 }
