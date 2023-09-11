@@ -1,6 +1,6 @@
 :root {
-  --primary-font: "Roboto", sans-serif;
-  --logo-font: "Raleway", sans-serif;
+  --primary-font: "Montserrat", sans-serif;
+  --logo-font: "Montserrat", sans-serif;
   --color-black: #111111;
   --color-violet: #1e1823;
   --color-grey: #4c4c4c;
@@ -14,8 +14,8 @@ img {
 }
 body {
   margin: auto;
-  --primary-font: "Roboto", sans-serif;
-  --logo-font: "Raleway", sans-serif;
+  --primary-font: "Montserrat", sans-serif;
+  --logo-font: "Montserrat", sans-serif;
 }
 /* header */
 .header {
@@ -38,7 +38,7 @@ body {
 }
 
 .logo-chocolate {
-  font-family: var(--logo-font);
+  font-family: "Montserrat";
   font-weight: 700;
   height: 20px;
   color: var(--color-black);
@@ -46,15 +46,18 @@ body {
   display: flex;
   margin-top: 24px;
   margin-bottom: 34px;
-  line-height: 1.15;
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 0.1px;
 }
 
-.logo-chocolate:hover {
-  color: red;
+.logo-chocolate:hover,
+.logo-chocolate:focus {
+  color: var(--color-orange);
 }
-
+.simple {
+  margin-right: 6px;
+}
 .list-link {
   list-style: none;
   display: flex;
@@ -62,6 +65,7 @@ body {
   line-height: 1.15;
   padding-top: 10px;
 }
+
 .header-link {
   margin-right: 24px;
 }
@@ -72,9 +76,14 @@ body {
   text-decoration: none;
   color: var(--color-black);
   line-height: 1.15;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
 }
+.link:hover,
+.link:focus {
+  color: var(--color-orange);
+}
+
 .icon-social {
   list-style: none;
   display: flex;
@@ -146,7 +155,7 @@ body {
   background-color: var(--color-beige);
 }
 .button-one:focus {
-  background-color: red;
+  background-color: var(--color-beige);
 }
 
 .link-chocolate {
@@ -168,7 +177,6 @@ body {
 .containar-scroll {
   display: flex;
   margin-left: 585px;
-
   align-items: center;
 }
 .scroll-down-link {
@@ -178,6 +186,7 @@ body {
   width: 103px;
   height: 17px;
   line-height: 1.15;
+  text-decoration: none;
 }
 
 .container-icon {
@@ -217,15 +226,15 @@ body {
   content: "";
   width: 124px;
   flex-shrink: 0;
-  background-color: red;
+  background-color: var(--color-orange);
   height: 4px;
   display: block;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .section-two {
   background-color: var(--color-violet);
   width: 1200px;
-  height: 350px;
+  height: 370px;
   margin: auto;
   margin-bottom: 120px;
 }
@@ -300,9 +309,9 @@ body {
   margin: auto;
   padding-bottom: 80px;
   line-height: 1.15;
-  letter-spacing: 0.04em;
-  font-weight: 300;
-  font-size: 23px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .paragraphe-two {
@@ -478,7 +487,7 @@ body {
   align-items: center;
   margin-bottom: 28px;
   line-height: 1.15;
-  font-weight: 100;
+  font-weight: 700;
   font-size: 15px;
   letter-spacing: 0.04em;
   margin-left: 32px;
@@ -490,41 +499,37 @@ body {
   font-family: var(--primary-font);
   color: var(--color-black);
   line-height: 1.15;
+  margin-bottom: 24px;
 }
 .paragraphe-three-one {
-  margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 500;
 }
 .paragraphe-three-two {
-  margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 500;
 }
 .paragraphe-three-three {
-  margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 500;
 }
 .paragraphe-three-foure {
-  margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 500;
 }
 .paragraphe-three-five {
-  margin-bottom: 24px;
   line-height: 1.15;
   font-size: 15px;
   letter-spacing: 0.04em;
-  font-weight: 400;
+  font-weight: 500;
 }
 /* section-five */
 .section-five {
@@ -559,7 +564,7 @@ body {
   border: solid 1px;
   border-radius: 13px;
   width: 250px;
-  height: 364px;
+  height: 377px;
   margin-right: 18px;
   margin-bottom: 24px;
   border-color: lightgray;
@@ -589,6 +594,26 @@ body {
   margin: auto;
   line-height: 1.15;
   font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.4;
+}
+.container-price {
+  border: solid 1px;
+  border-radius: 15px;
+  width: 94px;
+  height: 33px;
+  margin: 0 auto;
+  margin-top: 26px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  border-color: #c3c4ca;
+}
+.price {
+  font-family: var(--logo-font);
+  margin: auto;
+  line-height: 1.15;
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.4;
 }
@@ -753,7 +778,7 @@ a:focus .text-transform {
   line-height: 1.15;
   font-weight: 700;
   letter-spacing: 0.5;
-  font-size: 15px;
+  font-size: 18px;
   background-color: transparent;
 }
 .button-end:hover {
@@ -788,7 +813,7 @@ a:focus .text-transform {
   font-size: 23px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  max-width: 300px;
+  width: 300px;
   height: 68px;
 }
 .list-link-footer {
@@ -829,10 +854,13 @@ a:focus .text-transform {
   list-style: none;
   margin-right: 40px;
 }
+.link-icon {
+  margin-right: 14px;
+}
+
 .icon-soc-two {
   fill: transparent;
   stroke: var(--color-white);
-  margin-right: 14px;
   align-items: center;
 }
 .icon-soc-two:hover {
@@ -876,11 +904,22 @@ a:focus .text-transform {
   letter-spacing: 0.5;
   font-size: 15px;
 }
+.adress-footer:hover,
+.adress-footer:focus {
+  color: var(--color-orange);
+}
 .container-button-footer {
   margin-bottom: 50px;
   display: flex;
   justify-content: end;
   margin-top: 30px;
+}
+.link-footer {
+  margin-right: 14px;
+}
+.link-two:hover,
+.link-two:focus {
+  color: var(--color-orange);
 }
 .form {
   display: flex;
@@ -899,6 +938,10 @@ a:focus .text-transform {
   border-color: var(--color-white);
   background-color: transparent;
   opacity: 0.2;
+}
+.input-form:hover,
+.input-form:focus {
+  border-color: var(--color-orange);
 }
 .input-form::placeholder {
   color: var(--color-white);
@@ -1007,11 +1050,10 @@ a:focus .text-transform {
   background-color: transparent;
   padding-left: 40px;
 }
-.container-input:focus + .input-modal {
-  border-color: #fd9222;
-}
-.input-modal:hover {
-  border-color: #fd9222;
+
+.input-modal:hover,
+.input-modal:focus {
+  border-color: var(--color-orange);
 }
 .icon-modal {
   position: absolute;
