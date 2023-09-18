@@ -811,10 +811,10 @@ a:focus .text-transform {
   font-family: var(--logo-font);
   margin-left: 32px;
   line-height: 1.15;
-  font-size: 23px;
+  font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  width: 300px;
+  max-width: 428px;
   height: 68px;
 }
 .list-link-footer {
