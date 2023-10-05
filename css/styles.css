@@ -337,12 +337,18 @@ body {
 }
 
 .img-choco {
+  position: relative;
   background-color: var(--color-orange);
   border-radius: 10px;
   border: solid 1px;
   border-color: var(--color-orange);
   margin-right: 32px;
   margin-bottom: 24px;
+}
+.icon-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .text-milk-chocolate {
   color: var(--color-white);
@@ -355,6 +361,7 @@ body {
 }
 
 .img-cacao {
+  position: relative;
   background-color: var(--color-orange);
   border-radius: 10px;
   border: solid 1px;
@@ -371,6 +378,7 @@ body {
   letter-spacing: 0.04em;
 }
 .img-nuts {
+  position: relative;
   background-color: var(--color-violet);
   border-radius: 10px;
   border: solid 1px;
@@ -419,6 +427,10 @@ body {
   font-weight: 700;
   letter-spacing: 0.04em;
 }
+.icon-arrow-semi {
+  position: absolute;
+  fill: #fd9222;
+}
 .img-milk {
   border: solid 1px;
   border-radius: 10px;
@@ -426,6 +438,7 @@ body {
   margin-right: 32px;
   margin-bottom: 24px;
 }
+
 .text-milk {
   font-size: 15px;
   margin-left: 28px;
@@ -435,6 +448,7 @@ body {
   letter-spacing: 0.04em;
 }
 .img-strewberry {
+  position: relative;
   border: solid 1px;
   border-radius: 10px;
   border-color: var(--color-orange);
